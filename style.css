@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Belanosima&family=Roboto:wght@300&display=swap');
+*{
+    font-family: 'Belanosima', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+.bannerBgImage{
+    height: 100vh;
+    background: url("https://images.unsplash.com/photo-1588053631229-d04fd47cf0ad?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1032&q=80.jpg");    
+    background-size:cover;
+    position: relative;
+}
+
+.bannerText{
+    text-align: right;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    color:rgb(249, 233, 233);
+}
+.bannerTitle{
+    font-size: 4rem;
+    #hero h1:nth-child(1) {
+        animation-delay: 1s;
+    }
+    #hero h1:nth-child(2) {
+        animation-delay: 2s;
+    }
+    #hero h1:nth-child(3) {
+        animation: text_reveal_name 0.5s ease forwards;
+        animation-delay: 3s;
+    }
+}
+.bannerDesc{
+    font-size: 2rem;
+}
+.card{
+    cursor: pointer;
+}
+.card:hover{
+    background-color: rgb(245, 241, 244);
+    border: 2px solid rgb(19, 19, 19);
+}
+.BIcon{
+    width: 100%;
+    text-align: center;
+    font-size: 40px;
+}
+.img-fluid:hover{
+    border: 2px solid rgb(9, 9, 211);
+}
